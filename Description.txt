@@ -1,0 +1,9 @@
+this is a text file
+
+The database will be a list of Restaurant objects. Each restaurant object will have several qualities.
+[Name, Star rating,, Takeout/sit-in, Type of food, Hours, Location]
+If someone wants to search for 5-star places, for example, it will search everything in the database, checking if it has 5 stars.
+Once it does, it creates a list of 5 stars it will show to the user.
+
+However, this list needs to be organized by convenience. If the user searches by anything other than location, it will sort by location. Closest ones on top.
+If they search for the nearest ones, however, it will sort by stars.
